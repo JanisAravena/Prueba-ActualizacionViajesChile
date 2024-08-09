@@ -11981,9 +11981,9 @@ textarea.form-control-lg {
   flex-wrap: nowrap;
 }
 .testimonials__img {
-  max-width: 80px;
+  width: 80px;
   height: 80px;
-  border-radius: 100%;
+  border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 1rem;
@@ -11992,14 +11992,40 @@ textarea.form-control-lg {
   padding: 0 1rem;
 }
 .testimonials__title {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   color: #a08e66;
+  font-style: italic;
+  line-height: 1.8;
 }
 .testimonials__text {
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #a08e66;
+  font-style: italic;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  color: #fff;
+}
+.contact-info p {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+.contact-info p strong {
+  margin-right: 0.5rem;
+}
+.contact-info p a {
+  color: #fff;
+  text-decoration: none;
+}
+.contact-info p a:hover {
+  text-decoration: underline;
+}
+.contact-info p {
+  border: none;
 }
 
 .navbar {
@@ -12045,9 +12071,9 @@ body {
   color: #ffffff;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 * {
   border-radius: 15px;
-  font-family: "Open Sans", sans-serif !important;
 }/*# sourceMappingURL=main.css.map */

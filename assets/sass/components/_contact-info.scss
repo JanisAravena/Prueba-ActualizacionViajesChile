@@ -1,0 +1,25 @@
+.contact-info {
+    color: #fff; 
+    p {
+        margin: 0 0 1rem 0;       
+        padding: 0;
+  
+      strong {
+        margin-right: 0.5rem; 
+      }
+  
+      a {
+        color: #fff; 
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline; 
+        }
+      }
+    }
+  
+    p {
+      border: none;
+    }
+  }
+  
