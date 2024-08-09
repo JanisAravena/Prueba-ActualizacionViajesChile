@@ -1,0 +1,42 @@
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  
+    &__container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+      flex-wrap: nowrap;      
+    }
+  
+   
+      &__img {
+        max-width: 80px;     
+        height: 80px;      
+        border-radius: 100%; 
+        object-fit: cover;  
+        margin-bottom: 1rem;
+      }
+  
+      &__body {
+        padding: 0 1rem;
+      }
+  
+      &__title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: #a08e66;
+
+      }
+  
+      &__text {
+        font-size: 1rem;
+        color: #a08e66;
+      }
+    }
+  

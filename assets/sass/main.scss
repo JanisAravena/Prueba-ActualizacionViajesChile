@@ -1,0 +1,17 @@
+@use "../../node_modules/bootstrap/scss/bootstrap";  
+@use 'components/testimonials';                       
+@use 'layout/navbar';                                
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');  // Now the @import comes after all @use
+
+body {
+    background-color: #212529;
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+ }
+
+* {
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif !important;
+}

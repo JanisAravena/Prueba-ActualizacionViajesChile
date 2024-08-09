@@ -1,0 +1,54 @@
+.navbar {
+    background-color: transparent;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+  
+      .container-viajes {
+        display: flex;
+        align-items: center;
+  
+        .imagen-viajes {
+          margin-right: 0.5rem;
+          width: 40px; 
+          height: auto; 
+        }
+  
+        .texto-viajes {
+          font-size: 1.25rem;
+          color: #fff;
+          font-weight: bold;
+        }
+      }
+  
+      .navbar-toggler {
+        border: none;
+      }
+  
+      .navbar-nav {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+  
+        .nav-item {
+          margin-left: 1rem;
+  
+          .nav-link {
+            // color: #fff;
+            // font-weight: bold;
+            // &.active {
+            //   color: #ffffff;
+            // }
+  
+            &:hover {
+              color: #1100ff3a;
+            }
+          }
+        }
+      }
+    }
+  }
+  
